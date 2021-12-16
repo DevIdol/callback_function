@@ -22,3 +22,17 @@ transfer('JavaScript is the best programming language:', oneWord);
 // document.body.addEventListener('click', fiveTimes);
 
 // ['Mg Mg', 'Ma Ma', 'Hla Hla'].forEach(fiveTimes);
+
+
+// ====================================================
+
+
+// Higher_Order_Function
+// =======================================
+
+const aboutMe = name => age => console.log(`My name is ${name}. I am ${age} years old.`)
+
+aboutMe('Joseph') (20);
+// const about = aboutMe('Thang Thang');
+// about(20);
+
